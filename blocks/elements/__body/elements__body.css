@@ -1,0 +1,6 @@
+.elements__body {
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+  padding: 25px 20px 31px 20px;
+}

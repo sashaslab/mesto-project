@@ -1,0 +1,16 @@
+.elements__button-like {
+  align-self: center;
+  flex-shrink: 0;
+  padding: 0;
+  background: url(../../../images/like_disabled.svg);
+
+  width: 22px;
+  height: 19px;
+  border: none;
+  cursor: pointer;
+  transition: opacity .5s;
+}
+
+.elements__button-like:hover{
+  opacity: 0.5;
+}

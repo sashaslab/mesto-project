@@ -1,0 +1,24 @@
+.profile {
+  padding-top: 40px;
+  max-width: 880px;
+  width: calc(100% - 38px);
+  display: grid;
+  grid-template-areas:
+    'avatar . name edit-button . add-button'
+    'avatar . about about . add-button';
+  grid-template-columns: 120px 30px auto 1fr 30px 150px;
+}
+
+@media screen and (max-width: 768px) {
+  .profile {
+    padding-top: 42px;
+    grid-template-areas:
+      'avatar avatar avatar'
+      '. name edit-button'
+      'about about about'
+      'add-button add-button add-button';
+    text-align: center;
+    grid-template-columns: 1fr auto 1fr;
+  }
+
+}

@@ -1,0 +1,8 @@
+.profile__info {
+  display: grid;
+  grid-template-areas: 'name button-edit' 'description description';
+  grid-template-columns: auto 1fr;
+  gap: 16px 18px;
+  align-items: baseline;
+  padding: 0 30px;
+}

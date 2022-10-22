@@ -1,0 +1,13 @@
+.profile__about {
+  margin: 7px 0 0 0;
+  font-size: 18px;
+  line-height: 1.2;
+  grid-area: about;
+}
+
+@media screen and (max-width: 768px) {
+  .profile__about {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+}
