@@ -24,48 +24,48 @@
         <button type="button" aria-label="Добавить изображение" class="profile__add-button"></button>
       </section>
       <section class="elements page__section">
-        <div class="elements__element">
-          <img src="./images/element_image_1.jpg" alt="Карачаевск" class="elements__image">
-          <div class="elements__body">
+        <ul class="elements__element">
+          <li><img src="./images/element_image_1.jpg" alt="Карачаевск" class="elements__image"></li>
+          <li class="elements__body">
             <h2 class="elements__title">Карачаевск</h2>
             <button type="button" aria-label="Нравится" class="elements__button-like"></button>
-          </div>
-        </div>
-        <div class="elements__element">
-          <img src="./images/element_image_2.jpg" alt="Гора Эльбрус" class="elements__image">
-          <div class="elements__body">
+          </li>
+        </ul>
+        <ul class="elements__element">
+          <li><img src="./images/element_image_2.jpg" alt="Гора Эльбрус" class="elements__image"></li>
+          <li class="elements__body">
             <h2 class="elements__title">Гора Эльбрус</h2>
             <button type="button" aria-label="Нравится" class="elements__button-like"></button>
-          </div>
-        </div>
-        <div class="elements__element">
-          <img src="./images/element_image_3.jpg" alt="Домбай" class="elements__image">
-          <div class="elements__body">
+          </li>
+        </ul>
+        <ul class="elements__element">
+          <li><img src="./images/element_image_3.jpg" alt="Домбай" class="elements__image"></li>
+          <li class="elements__body">
             <h2 class="elements__title">Домбай</h2>
             <button type="button" aria-label="Нравится" class="elements__button-like"></button>
-          </div>
-        </div>
-        <div class="elements__element">
-          <img src="./images/element_image_2.jpg" alt="Гора Эльбрус" class="elements__image">
-          <div class="elements__body">
+          </li>
+        </ul>
+        <ul class="elements__element">
+          <li><img src="./images/element_image_2.jpg" alt="Гора Эльбрус" class="elements__image"></li>
+          <li class="elements__body">
             <h2 class="elements__title">Гора Эльбрус</h2>
             <button type="button" aria-label="Нравится" class="elements__button-like"></button>
-          </div>
-        </div>
-        <div class="elements__element">
-          <img src="./images/element_image_3.jpg" alt="Домбай" class="elements__image">
-          <div class="elements__body">
+          </li>
+        </ul>
+        <ul class="elements__element">
+          <li><img src="./images/element_image_3.jpg" alt="Домбай" class="elements__image"></li>
+          <li class="elements__body">
             <h2 class="elements__title">Домбай</h2>
             <button type="button" aria-label="Нравится" class="elements__button-like"></button>
-          </div>
-        </div>
-        <div class="elements__element">
-          <img src="./images/element_image_1.jpg" alt="Карачаево-Черкесия" class="elements__image">
-          <div class="elements__body">
+          </li>
+        </ul>
+        <ul class="elements__element">
+          <li><img src="./images/element_image_1.jpg" alt="Карачаево-Черкесия" class="elements__image"></li>
+          <li class="elements__body">
             <h2 class="elements__title">Карачаево-Черкесия</h2>
             <button type="button" aria-label="Нравится" class="elements__button-like"></button>
-          </div>
-        </div>
+          </li>
+        </ul>
       </section>
     </main>
     <footer class="footer page__section">
@@ -74,10 +74,10 @@
     <div class="popup popup_opened">
       <div class="poup__container">
         <button type="button" aria-label="Закрыть" class="popup__close-button"></button>
-        <form class="form">
+        <form class="form" name="edit-profile">
           <h2 class="form__title">Редактировать профиль</h2>
-          <input class="form__input" placeholder="Имя" value="Жак-Ив Кусто" type="text">
-          <input class="form__input" placeholder="О себе" value="Исследователь океана" type="text">
+          <input class="form__input" placeholder="Имя" name="name" value="Жак-Ив Кусто" type="text">
+          <input class="form__input" placeholder="О себе" name="about" value="Исследователь океана" type="text">
           <button type="submit" aria-label="Сохранить" class="form__submit-button">Сохранить</button>
         </form>
       </div>

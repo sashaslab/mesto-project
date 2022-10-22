@@ -1,6 +1,5 @@
 .poup__container {
   position: relative;
-  margin: 195px auto;
   max-width: 430px;
   width: calc(100% - 38px);
   box-sizing: border-box;
