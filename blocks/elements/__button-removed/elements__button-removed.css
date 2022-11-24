@@ -1,0 +1,18 @@
+.elements__button-removed {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  align-self: center;
+  flex-shrink: 0;
+  padding: 0;
+  background: url(../../../images/trash.svg);
+  width: 18px;
+  height: 19px;
+  border: none;
+  cursor: pointer;
+  transition: opacity .5s;
+}
+
+.elements__button-removed:hover {
+  opacity: 0.5;
+}

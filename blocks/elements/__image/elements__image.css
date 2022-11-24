@@ -1,5 +1,7 @@
 .elements__image {
+  cursor: pointer;
   display: block;
   width: 100%;
   border-radius: 10px 10px 0 0;
+  aspect-ratio: 1;
 }
